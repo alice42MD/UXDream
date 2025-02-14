@@ -1,3 +1,6 @@
+import Batt from "./components/Batt"
+import Geo from "./components/Geo"
+import Motion from "./components/Motion"
 import Volume from "./components/Volume"
 
 const App = () => {
@@ -25,6 +28,19 @@ const App = () => {
       <>
         <div>Screaaaaaaaaaaam</div>
         <Volume ui="scream" />
+      </>
+
+      <>
+        <div>Batt</div>
+        <Batt />
+      </>
+      <>
+        <div>Geo</div>
+        <Geo />
+      </>
+      <>
+        <div>Motion</div>
+        <Motion />
       </>
     </>
   )
